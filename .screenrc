@@ -1,0 +1,16 @@
+screen -t Syslog sudo tail -F -n 40 /var/log/messages.log
+screen -t Monitor htop
+#screen -t Torrent rtorrent
+#screen -t IRC weechat-curses
+screen -t Music ncmpcpp
+screen -t Shell bash
+screen -t Shell bash
+altscreen on
+bindkey ^[[1;5D prev
+bindkey ^[[1;5C next
+
+#change the hardstatus settings to give an window list at the bottom of the                                                                        
+#screen, with the time and date and with the current window highlighted                                                                            
+hardstatus alwayslastline
+#hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
