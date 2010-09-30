@@ -1,0 +1,11 @@
+[2010-09-29 09:35:19] WeeChat 0.3.3 (compiled on Aug  8 2010 01:24:45)
+[2010-09-29 09:35:19] Reading configuration file weechat.conf
+[2010-09-29 09:35:19] Reading configuration file plugins.conf
+[2010-09-29 09:35:19] Reading configuration file charset.conf
+[2010-09-29 09:35:19] Reading configuration file irc.conf
+[2010-09-29 09:35:19] Reading configuration file logger.conf
+[2010-09-29 09:35:19] Reading configuration file alias.conf
+[2010-09-29 09:35:19] Reading configuration file xfer.conf
+[2010-09-29 09:35:24] irc: connecting to server irc.freenode.com/6667...
+[2010-09-29 20:53:05] Writing configuration file wg.conf (default options)
+[2010-09-29 20:53:05] Reading configuration file wg.conf
